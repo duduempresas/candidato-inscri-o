@@ -41,7 +41,7 @@ $stmt->bind_param("ssssssss", $nome, $sobrenome, $telefone, $endereco, $numero_r
 // Executar a declaração
 if ($stmt->execute()) {
     // Redirecionar para a página de confirmação
-    header('Location:https://adrianoalves87.github.io/pagina-de-retorno-de-aviso/');
+    header('Location:https://duduempresas.github.io/pagina-de-confirma-o/');
     exit();
 } else {
     echo "Erro: " . $stmt->error;
